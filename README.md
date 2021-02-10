@@ -42,15 +42,90 @@ Show Page
 Map View
 ![Map View](map.png)
 
-
 # Frameworks used
 
+- HTML5 
+- CSS3 + SCSS
+- JavaScript
+  - ECMAScript6
+  - React.js
+  - Node.js
+  - Express
+  - MongoDB
+- VSCode
+- Axios
+- Git + GitHub
+- react-router-dom
+- react-select
+- react-hero-carousel
+- react-spinners
+- MapBox
+- Cloudinary
+- Insomnia
+- Yarn
+- Npm 
+  
 # Challenges
 
+The most challenging aspect of this group project was the authorisation process, specifically when it came to logging in users. 
+
+As you can see from the code snippet below we had to make checks to ensure that the user entered a valid password. I found using descriptive names useful to understand the flow of the loginUser function. If the user was successful then using jwt there were issued with a token, the secret and a login expiry time of 7 days. 
+
+```
+async function loginUser(req, res, next) {
+  try {
+    const userToLogin = await User.findOne({ email: req.body.email })
+    if (!userToLogin || !userToLogin.validatePassword(req.body.password)) {
+      throw new Error(unauthorized)
+    }
+    const token = jwt.sign({ sub: userToLogin._id }, secret, { expiresIn: '7 days' })
+    return res.status(202).json({ message: `Welcome back ${userToLogin.username}`, token })
+  } catch (err) {
+    next(err)
+  }
+}
+```
 
 # Wins
 
+Using react-select we were able to include filters on the event index page to filter by Continent, Country and City. To do this it mean we had to create new functions mapping and pushing the filtered element into an array. 
+
+Below you can see the code snippet to filter by Continent. 
+
+```
+  const filteredContinents = []
+  continents.map(continent => {
+    filteredContinents.push({ value: continent, label: continent })
+  })
+```
+
+```
+  const handleSelectContinent = (e) => {
+    const results = events.filter(event => {
+      return event.venue.continent === e.value
+    })
+    setEvents(results)
+  }
+```
+
+```
+        <div>
+          <Select 
+            placeholder="Select a Continent..."
+            options={filteredContinents}
+            onChange={handleSelectContinent}
+          />
+        </div>
+```
+
+By implementing these three steps it meant, for example, if Europe was selected it would not only filter out all other continents, but also leave only the countries in Europe for the Country filter. 
   
 # Future Features
 
+If we had more time on this project we would add:
+
+- Mobile Optimisation
+- Create the ability to follow other users
+- Add notifications for users
+- Add recently added events feature
 

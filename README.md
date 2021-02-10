@@ -69,7 +69,7 @@ Map View
 
 The most challenging aspect of this group project was the authorisation process, specifically when it came to logging in users. 
 
-As you can see from the code snippet below we had to make checks to ensure that the user entered a valid password. I found using descriptive names useful to understand the flow of the loginUser function. If the user was successful then using jwt there were issued with a token, the secret and a login expiry time of 7 days. 
+As you can see from the code snippet below we had to make checks to ensure that the user entered a valid password. I found using descriptive names useful to understand the flow of the loginUser function. If the user was successful, then using jwt they were issued with a token, the secret and a login expiry time of 7 days. 
 
 ```
 async function loginUser(req, res, next) {
@@ -88,7 +88,7 @@ async function loginUser(req, res, next) {
 
 # Wins
 
-Using react-select we were able to include filters on the event index page to filter by Continent, Country and City. To do this it mean we had to create new functions mapping and pushing the filtered element into an array. 
+Using react-select we were able to include filters on the event index page to filter by Continent, Country and City. To do this it meant we had to create new functions, mapping and pushing the filtered element into an array. 
 
 Below you can see the code snippet to filter by Continent. 
 
@@ -118,7 +118,7 @@ Below you can see the code snippet to filter by Continent.
         </div>
 ```
 
-By implementing these three steps it meant, for example, if Europe was selected it would not only filter out all other continents, but also leave only the countries in Europe for the Country filter. 
+By implementing these three steps it meant, for example, that if Europe was selected it would not only filter out all other continents, but also leave only the countries in Europe for the Country filter. 
   
 # Future Features
 

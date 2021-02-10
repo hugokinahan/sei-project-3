@@ -31,7 +31,7 @@ Trello
 # Screenshots
 
 Homepage
-![Homepage](homepage.png)
+![Homepage](homepage.gif)
 
 Index Page
 ![Index Page](events-index.png)

@@ -15,7 +15,7 @@ Please follow the link to the website:
 
 # Motivation
 
-With just 1 week of tuition in Node.js and Express we decided to challenge ourselves to build a highly functional app. As we were early into 2021 we decided to reflect on the troublesome year of 2020 as if COVID-19 were non-existent. Therefore, we build an events website for all the events in 2020 that were missed, into reimagined specatacles with thousands of visitors. 
+With just 1 week of tuition in Node.js and Express we decided to challenge ourselves to build a highly functional app. As we were early into 2021 we decided to reflect on the troublesome year of 2020 as if COVID-19 were non-existent. Therefore, we built an events website for all the events in 2020 that were missed, into reimagined specatacles with thousands of visitors. 
 
 # Preparation & Organisation
 

@@ -31,7 +31,16 @@ Trello
 # Screenshots
 
 Homepage
-![Homepage]()
+![Homepage](homepage.png)
+
+Index Page
+![Index Page](events-index.png)
+
+Show Page
+![Show Page](event-showpage.png)
+
+Map View
+![Map View](map.png)
 
 
 # Frameworks used

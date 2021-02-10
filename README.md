@@ -37,7 +37,7 @@ Index Page
 ![Index Page](events-index.png)
 
 Show Page
-![Show Page](event-showpage.png)
+![Show Page](coachella.png)
 
 Map View
 ![Map View](map.png)

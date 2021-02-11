@@ -20,26 +20,33 @@ With just 1 week of tuition in Node.js and Express we decided to challenge ourse
 # Preparation & Organisation
 
 Backend Wireframe
+
 ![Backend Wireframe](backend-wireframe.png)
 
 Frontend Wireframe
+
 ![Frontend Wireframe](frontend-wireframe.png)
 
 Trello 
+
 ![Trello](trello-p3.png)
 
 # Screenshots
 
 Homepage
+
 ![Homepage](homepage.gif)
 
 Index Page
+
 ![Index Page](events-index.png)
 
 Show Page
+
 ![Show Page](coachella.png)
 
 Map View
+
 ![Map View](map.png)
 
 # Frameworks used

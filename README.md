@@ -11,7 +11,7 @@ In your group, build a fullstack MERN application using your own RESTful API. Ti
 
 # Deployment
 
-Please follow the link to the website: 
+Please follow the link to the website: https://project-3-2020-reimagined.herokuapp.com/
 
 # Motivation
 

@@ -236,7 +236,7 @@ By implementing these three steps it meant, for example, that if Europe was sele
 
 # Key Learnings
 
-One of the most crucial aspects I learnt from this project was the planning. I hadn't spent too much time planning on Projects 1 & 2 but here we made a concerted effort not to begin with any coding until we were happy with our plan.  This involved building wireframes for user journeys and creating a Trello board to manage all of our tasks. Trello helped hugely when dividing up work between our group. We were clearly able to see who was working on what and what tasks there were still left to do. 
+One of the most crucial aspects I learnt from this project was the planning. To my disadvantage, I hadn't spent too much time planning on Projects 1 & 2 but here we made a concerted effort not to begin with any coding until we were happy with our plan.  This involved building wireframes for user journeys and creating a Trello board to manage all of our tasks. Trello helped hugely when dividing up work between our group. We were clearly able to see who was working on what and what tasks there were still left to do. 
 
 One aspect I think our group could have improved on was asking each other for help sooner. Occasionally we would spend too long on a task without asking for help, losing valuable time, when a group member could have helped out with added knowledge. 
   

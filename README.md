@@ -55,7 +55,7 @@ Using Node.js, Express and MongoDB in the backend was relatively new to the grou
 
 Frontend
 
-After seeding the data, we were ready to move onto the React frontend. We implemented a basic style to which we could all work to and I set about creating a Mapbox feature to show all over the venues and events on the map (see map view below under screenshots). Using Mapbox I was able to create a popup to show all of the events listed at each venue, with a link to each event page. 
+After seeding the data, we were ready to move onto the React frontend. We implemented a basic style to which we could all work to and I set about creating a Mapbox feature to show all of the venues and events on the map (see map view below under screenshots). Using Mapbox I was able to create a popup to show all of the events listed at each venue, with a link to each event page. 
 
 ```
 <ReactMapGL

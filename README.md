@@ -111,6 +111,8 @@ After seeding the data, we were ready to move onto the React frontend. We implem
             </ReactMapGL>
 ```
 
+![Map Popup](map-popup.png)
+
 While my group worked on the index pages and the show page for each event and venue. I took on the opportunity to build out the homepage, a crucial aspect to catch the eye of our users when they land on the site. I installed react-hero-carousel to implement a revolving hero image carousel set on a timer. I added an animated heading to the homepage to further enchance the appeal of the site, which I believe complemented the branding of the application. 
 
 Lastly, I wanted to implement a Highest Rated Events section at the bottom of our homepage. If I had more time on this project I would go back and change the code here. As you can see below currently all events with an avgRating of higher than 4 would be listed here. Ideally, I would spend more time here to get the three highest rated events. 

@@ -31,6 +31,29 @@ Trello
 
 ![Trello](trello-p3.png)
 
+# Frameworks used
+
+- HTML5 
+- CSS3 + SCSS
+- JavaScript
+  - ECMAScript6
+  - React.js
+  - Node.js
+  - Express
+  - MongoDB
+- VSCode
+- Axios
+- Git + GitHub
+- react-router-dom
+- react-select
+- react-hero-carousel
+- react-spinners
+- MapBox
+- Cloudinary
+- Insomnia
+- Yarn
+- Npm 
+
 # Process
 
 Backend
@@ -155,29 +178,6 @@ Show Page
 Map View
 
 ![Map View](map.png)
-
-# Frameworks used
-
-- HTML5 
-- CSS3 + SCSS
-- JavaScript
-  - ECMAScript6
-  - React.js
-  - Node.js
-  - Express
-  - MongoDB
-- VSCode
-- Axios
-- Git + GitHub
-- react-router-dom
-- react-select
-- react-hero-carousel
-- react-spinners
-- MapBox
-- Cloudinary
-- Insomnia
-- Yarn
-- Npm 
   
 # Challenges
 

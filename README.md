@@ -31,6 +31,75 @@ Trello
 
 ![Trello](trello-p3.png)
 
+# Process
+
+Backend
+
+Working in a group of three had its challenges, but our group dynamic worked well to ensure we finished with the product we wanted. 
+
+As we had over a week to do the project, we decided it best not to rush the backend, and miss some crucial elements. Therefore, we all worked on the backend together, often with one member of the team screen-sharing. This created an environment in which every member of the group knew the details of the backend, which came in especially useful when moving onto the React frontend. 
+
+Using Node.js and MongoDB in the backend was relatively knew to the group, another reason why tackling this together would be rewarded later down the line. Pooling our knowledge here definitely helped our efficiency in completing our backend within 3 days. 
+
+Frontend
+
+After seeding the data, we were ready to move onto the React frontend. We implemented a basic style to which we could all work to and I set about creating a Mapbox feature to show all over the venues and events on the map (see map view below under screenshots). Using Mapbox I was able to create a popup to show all of the events listed at each venue, with a link to each event page. 
+
+```
+<ReactMapGL
+              mapboxApiAccessToken={process.env.REACT_APP_MAPBOX_ACCESS_TOKEN}
+              height="100%"
+              width="100%"
+              mapStyle='mapbox://styles/mapbox/streets-v11'
+              {...viewport}
+              onClick={() => setPopup(null)}
+              onViewportChange={viewport => setViewport(viewport)}
+            >
+              {events ?
+                events.map(event => (
+                  <Marker
+                    className='map-markers'
+                    key={event.id}
+                    latitude={event.venue.latitude}
+                    longitude={event.venue.longitude}
+                  >
+                    <span
+                      role="img"
+                      aria-label="map-marker"
+                      onClick={() => setPopup(event.venue)}
+                    >
+                    🏟
+                    </span>
+                  </Marker>
+                ))
+                :
+                <div className="ring-loader">
+                  <RingLoader color="purple" size={60} />
+                </div>
+              }
+              {popup &&
+          <Popup
+            closeOnClick={true}
+            latitude={popup.latitude}
+            longitude={popup.longitude}
+            closeButton={false}
+          >
+            <h4>{popup.name}, {popup.city}</h4>
+            <h4>Events:</h4>
+            <div>{events.map(event => {
+              if (event.venue.name === popup.name) {
+                return <p>
+                  <Link to={`/events/${event._id}`}>{event.name}</Link>
+                </p>
+              }
+            })}
+            </div>
+          </Popup>
+              }
+            </ReactMapGL>
+```
+
+
 # Screenshots
 
 Homepage

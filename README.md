@@ -39,6 +39,18 @@ Working in a group of three had its challenges, but our group dynamic worked wel
 
 As we had over a week to do the project, we decided it best not to rush the backend, and miss some crucial elements. Therefore, we all worked on the backend together, often with one member of the team screen-sharing. This created an environment in which every member of the group knew the details of the backend, which came in especially useful when moving onto the React frontend. 
 
+We created the data ourselves with events, venues and a handful of users. A typical event model looked like this:
+
+```
+  {
+    name: 'Ed Sheeran', 
+    date: '2020-01-04', 
+    description: 'Armed with just a foot loop pedal, his guitar, his voice and a microphone, Sheeran captivated the audience for almost two hours. There is no debate that he is a talented live performer and can hold his own opposite a sold-out crowd of 39,000, however, in my eyes, the gig didn\'t reach its full potential.',
+    eventImage: 'https://cdn.mysnapp.co.uk/images/original/ed-sheeran-has-broken-another-world-record-editorial-article-image-link-gP73.jpg',
+    venueRef: 'Aviva Stadium'
+  },
+```
+
 Using Node.js, Express and MongoDB in the backend was relatively new to the group, another reason why tackling this together would be rewarded later down the line. Pooling our knowledge here definitely helped our efficiency in completing our backend within 3 days. 
 
 Frontend
